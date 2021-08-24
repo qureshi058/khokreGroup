@@ -81,11 +81,11 @@ h2 {
   z-index: 2;
   content: '';
   position: absolute;
-  background: #dc3545;
-  background: linear-gradient(90deg, #202020 10%, #7ec13f 100%);
+  background: #00114f;
+  background: linear-gradient(90deg, #000f47 0%, #7ec13f 100%);
 }
 #homeBanner.jumbotron .videocontainer:before {
-  background: #dc3545;
+  background: #00114f;
   top: 0;
   left: 0;
   width: 100%;
@@ -134,7 +134,7 @@ textarea { height:150px;}
   border-radius: 10px;
 }
 .team .copyContainer {
-  background: #dc3545;
+  background: #00114f;
   color: #fff;
   padding: 30px 30px;
   border-radius: 10px;
@@ -237,7 +237,7 @@ h1, h2, h3 {
   #navbarNav .navbar-nav li:before {
     content: '';
     display: block;
-    border-left: 4px solid "#dc3545";
+    border-left: 4px solid "#00114f";
     height: 20px;
     position: absolute;
     top: 16px;
@@ -296,7 +296,7 @@ h1, h2, h3 {
   z-index: 100000;
 }
 .team .hover-row.active .copyContainer {
-  background: "#dc3545";
+  background: "#00114f";
 }
 .team .copyContainer.hover p {
   font-size: 1.25rem;
