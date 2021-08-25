@@ -659,7 +659,7 @@ section {
 }
 
 .menu-bg {
-	background:#00114f !important;
+	background:#00114f
 }
 
 #main-menu ul {
@@ -2933,7 +2933,7 @@ footer {
  @media (max-width: 992px) {
 
 #main-menu {
-	background:#00114f;
+	background:#00114f !important;
 }
 	 
  .navbar-right {
@@ -2963,8 +2963,8 @@ footer {
 }
 
 #main-menu ul li a:hover, #main-menu ul li.active a {
-	background:white!important;
-	color:#00114fd7;
+	background:white !important;
+	color:#00114f;
 }
 
 #main-menu ul li.active > a {
@@ -3240,8 +3240,7 @@ h1, h2, h3 {
   .m-text-center {
     text-align: center !important;
   }
-
-
+}
 #contactBanner {
   padding:0px;
 }
@@ -3350,7 +3349,7 @@ footer a {
   @media screen and (max-width: 760px) {
 	.what-we-do-title {
 	 
-	  margin-top: 130px!important;
+	  margin-top: 120px!important;
 
 	}
   }
