@@ -291,6 +291,7 @@ section {
 	background:#FFF;
 	border-color: FFFF;
 	color:#5F5A5A;
+	
 }
 
 .btn-white:hover, .btn-white:focus {
@@ -648,15 +649,17 @@ section {
 	width: 100%;
 	position: fixed;
 	z-index: 99999;
+	background:#00114f
 }
 
 #main-menu {
 	z-index: 300;
 	visibility:visible;
+	background:#00114f !important;
 }
 
 .menu-bg {
-	background:#00114f
+	background:#00114f !important;
 }
 
 #main-menu ul {
@@ -981,8 +984,8 @@ html[xmlns] .slides {
 .features-icon {
 
 color: #7EC13F;
-font-size: 60px;
-margin-bottom: 30px;
+font-size: 55px;
+margin-bottom: 40px;
 
 text-align: center;
 
@@ -1002,8 +1005,8 @@ text-align: center;
 }
 
 
-.features-icon-box .features-info {
-
+.features-icon-box  {
+	display: flex;width: 100%;justify-content: center;
 }
 
 
@@ -2930,7 +2933,7 @@ footer {
  @media (max-width: 992px) {
 
 #main-menu {
-	background:#202020;
+	background:#00114f;
 }
 	 
  .navbar-right {
@@ -2954,14 +2957,14 @@ footer {
 #main-menu ul li a {
     line-height: 23px;
     display: inherit;
-    border-bottom: 1px solid #2C2C2C;
+    border-bottom: 1px solid white;
     padding: 5px 20px;
 	background:transparent;
 }
 
 #main-menu ul li a:hover, #main-menu ul li.active a {
-	background:#2C2C2C !important;
-	color:#FFF;
+	background:white!important;
+	color:#00114fd7;
 }
 
 #main-menu ul li.active > a {
@@ -3047,16 +3050,19 @@ h2 {
   filter: grayscale(1);
 }
 
+
 .jumbotron .videocontainer:before {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  content: '';
-  position: absolute;
-  background: rgb(0, 17, 79);
-  background: linear-gradient(90deg, rgba(0, 17, 79, 0.9) 0%, rgba(120, 181, 47, 0.9) 100%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    content: '';
+    position: absolute;
+    background: rgb(0, 17, 79);
+    background: linear-gradient(
+90deg
+, rgba(0, 17, 79, 0.9) 0%, rgba(120, 181, 47, 0.9) 100%);
 }
 #homeBanner.jumbotron .videocontainer:before {
   background: rgba(0, 17, 79, 0.7);
@@ -3234,7 +3240,8 @@ h1, h2, h3 {
   .m-text-center {
     text-align: center !important;
   }
-}
+
+
 #contactBanner {
   padding:0px;
 }
@@ -3292,3 +3299,58 @@ footer a {
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
 	max-width:1280px; 
 }
+/* who we ara section---------------------------------------------------------------- */
+.main-box{
+	background-color:#00114f;
+	border-radius: 10px;
+	height: 650px;
+	
+	justify-content: center;
+	display: flex;
+	align-items:center;
+	padding:20px 40px 20px 40px;
+}
+.founder-heading{
+	text-align:center;color: white;font-size: 22px;margin-bottom: 20px;letter-spacing: 1px;
+}
+.founder-subheading{
+	text-align:center;color: white;margin-bottom: 10px;font-size: 16px;
+}
+.founder-para{
+	text-align:center;color: white;
+}
+@media screen and (max-width: 480px) {
+	.main-box {
+	 
+	  height: 750px;
+
+	}
+  }
+@media screen and (max-width: 400px) {
+	.main-box {
+	 
+	  height: 820px;
+
+	}
+  }
+  @media screen and (max-width: 360px) {
+	.main-box {
+	 
+	  height: 910px;
+	  overflow-y: scroll;
+
+	}
+  }
+  /* what we do section------------------ */
+  .what-we-do-title {
+	 
+	margin-top: 50px!important;
+
+  }
+  @media screen and (max-width: 760px) {
+	.what-we-do-title {
+	 
+	  margin-top: 130px!important;
+
+	}
+  }
